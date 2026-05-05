@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message DatosRostros {
+  repeated string nombres = 1;
+  repeated bytes encodings = 2;  // codificaciones como bytes
+  repeated bytes imagenes = 3;   // imágenes como bytes
+}
